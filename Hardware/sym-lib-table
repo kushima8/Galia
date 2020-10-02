@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Galia)(type Legacy)(uri ${KIPRJMOD}/Galia.lib)(options "")(descr ""))
+)
