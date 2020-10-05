@@ -1,4 +1,4 @@
-19090288794159893
+19093493036136234
 AI03 Keyswitches
 ALPS-1.5U
 
@@ -50687,6 +50687,13 @@ Switch_TSTPHWM_6.2x6.2
 4
 2
 Custom Parts
+TP4056-18650
+
+
+0
+6
+6
+Custom Parts
 TRRS_MidMount_2SJ3108-035111F
 
 
@@ -53549,6 +53556,13 @@ Through hole pin header THT 1x04 2.54mm single row
 0
 4
 4
+Galia
+TP4056-18650
+
+
+0
+6
+6
 Galia
 USB-C-C168688
 

@@ -1649,7 +1649,6 @@ F 3 "" H 5700 2850 50  0001 C CNN
 	1    5700 2850
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 4700
 $Comp
 L power:GND3 #PWR014
 U 1 1 5F77703F
@@ -1665,8 +1664,6 @@ NoConn ~ 4400 4900
 NoConn ~ 4400 4800
 Wire Wire Line
 	5800 4700 6300 4700
-Wire Wire Line
-	6300 4600 5800 4600
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5F63E50D
@@ -1878,8 +1875,8 @@ $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5F53949C
 P 7150 1150
-F 0 "J1" H 7200 1150 50  0000 L CNN
-F 1 "Bat" H 7200 1050 50  0000 L CNN
+F 0 "J1" H 7250 1150 50  0000 L CNN
+F 1 "Bat" H 7250 1050 50  0000 L CNN
 F 2 "Galia:Battery_Solder_Points" H 7150 1150 50  0001 C CNN
 F 3 "~" H 7150 1150 50  0001 C CNN
 	1    7150 1150
@@ -1887,9 +1884,6 @@ F 3 "~" H 7150 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 1150 6450 1150
-Connection ~ 6950 1150
-Wire Wire Line
-	6450 1050 6950 1050
 Connection ~ 2550 1350
 Wire Wire Line
 	2550 3350 3000 3350
@@ -2083,13 +2077,10 @@ F 3 "" H 10250 1600 50  0001 C CNN
 	1    10100 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 10800 1200 2    50   Input ~ 0
+Text GLabel 10800 1500 2    50   Input ~ 0
 DATA
 Wire Wire Line
-	10800 1200 10700 1200
-Wire Wire Line
-	10700 1200 10700 1300
-Connection ~ 10700 1200
+	10800 1500 10700 1500
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J7
 U 1 1 60775052
@@ -2101,13 +2092,10 @@ F 3 "" H 10200 4750 50  0001 C CNN
 	1    10050 4750
 	1    0    0    -1  
 $EndComp
-Text GLabel 10750 4350 2    50   Input ~ 0
+Text GLabel 10750 4650 2    50   Input ~ 0
 DATA_R
 Wire Wire Line
-	10750 4350 10650 4350
-Wire Wire Line
-	10650 4350 10650 4450
-Connection ~ 10650 4350
+	10750 4650 10650 4650
 Text GLabel 4400 4700 0    50   Input ~ 0
 DATA_R
 $Comp
@@ -2171,27 +2159,27 @@ SDA
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 6085DDB0
-P 8350 1750
-F 0 "J2" H 8268 1325 50  0000 C CNN
-F 1 "OLED" H 8268 1416 50  0000 C CNN
-F 2 "Galia:PinHeader_1x04_P2.54mm_Vertical_No_Silk" H 8350 1750 50  0001 C CNN
-F 3 "~" H 8350 1750 50  0001 C CNN
-	1    8350 1750
+P 8350 1250
+F 0 "J2" H 8268 825 50  0000 C CNN
+F 1 "OLED" H 8268 916 50  0000 C CNN
+F 2 "Galia:PinHeader_1x04_P2.54mm_Vertical_No_Silk" H 8350 1250 50  0001 C CNN
+F 3 "~" H 8350 1250 50  0001 C CNN
+	1    8350 1250
 	1    0    0    1   
 $EndComp
-Text GLabel 7950 1650 0    50   Input ~ 0
+Text GLabel 7950 1150 0    50   Input ~ 0
 SCL
-Text GLabel 7950 1550 0    50   Input ~ 0
+Text GLabel 7950 1050 0    50   Input ~ 0
 SDA
 $Comp
 L power:GND1 #PWR08
 U 1 1 60869B98
-P 8150 1850
-F 0 "#PWR08" H 8150 1600 50  0001 C CNN
-F 1 "GND1" H 8155 1677 50  0000 C CNN
-F 2 "" H 8150 1850 50  0001 C CNN
-F 3 "" H 8150 1850 50  0001 C CNN
-	1    8150 1850
+P 8150 1350
+F 0 "#PWR08" H 8150 1100 50  0001 C CNN
+F 1 "GND1" H 8155 1177 50  0000 C CNN
+F 2 "" H 8150 1350 50  0001 C CNN
+F 3 "" H 8150 1350 50  0001 C CNN
+	1    8150 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2199,22 +2187,22 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR07
 U 1 1 608AE49E
-P 8050 1450
-F 0 "#PWR07" H 8050 1300 50  0001 C CNN
-F 1 "VCC" H 8065 1623 50  0000 C CNN
-F 2 "" H 8050 1450 50  0001 C CNN
-F 3 "" H 8050 1450 50  0001 C CNN
-	1    8050 1450
+P 8050 950
+F 0 "#PWR07" H 8050 800 50  0001 C CNN
+F 1 "VCC" H 8065 1123 50  0000 C CNN
+F 2 "" H 8050 950 50  0001 C CNN
+F 3 "" H 8050 950 50  0001 C CNN
+	1    8050 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8050 1450 8050 1750
+	8050 950  8050 1250
 Wire Wire Line
-	8050 1750 8150 1750
+	8050 1250 8150 1250
 Wire Wire Line
-	7950 1550 8150 1550
+	7950 1050 8150 1050
 Wire Wire Line
-	8150 1650 7950 1650
+	8150 1150 7950 1150
 $Comp
 L Connector_Generic:Conn_01x04 J6
 U 1 1 60903339
@@ -2410,4 +2398,114 @@ Text GLabel 4400 5200 0    50   Input ~ 0
 ROW4_R
 Text GLabel 4400 4600 0    50   Input ~ 0
 ROW5_R
+Wire Wire Line
+	10700 1500 10700 1600
+Connection ~ 10700 1500
+Connection ~ 10700 1600
+Wire Wire Line
+	10700 1600 10700 1700
+Connection ~ 10700 1700
+Wire Wire Line
+	10700 1700 10700 1800
+Wire Wire Line
+	10650 4650 10650 4750
+Connection ~ 10650 4650
+Connection ~ 10650 4750
+Wire Wire Line
+	10650 4750 10650 4850
+Connection ~ 10650 4850
+Wire Wire Line
+	10650 4850 10650 4950
+$Comp
+L Connector_Generic:Conn_01x06 J8
+U 1 1 5F7CF040
+P 8350 2050
+F 0 "J8" H 8430 2042 50  0000 L CNN
+F 1 "TP4056" H 8430 1951 50  0000 L CNN
+F 2 "Galia:TP4056-18650" H 8350 2050 50  0001 C CNN
+F 3 "~" H 8350 2050 50  0001 C CNN
+	1    8350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0105
+U 1 1 5F7DFD8A
+P 7650 1950
+F 0 "#PWR0105" H 7650 1700 50  0001 C CNN
+F 1 "GND1" H 7655 1777 50  0000 C CNN
+F 2 "" H 7650 1950 50  0001 C CNN
+F 3 "" H 7650 1950 50  0001 C CNN
+	1    7650 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1950 8150 1950
+Wire Wire Line
+	8150 2150 7850 2150
+Wire Wire Line
+	7850 2150 7850 1950
+Text GLabel 6550 950  1    50   Input ~ 0
+RAW
+Text GLabel 8150 2050 0    50   Input ~ 0
+RAW
+NoConn ~ 8150 1850
+Wire Wire Line
+	7850 1950 7650 1950
+Connection ~ 7850 1950
+$Comp
+L Connector_Generic:Conn_01x06 J9
+U 1 1 5F862446
+P 8500 6000
+F 0 "J9" H 8580 5992 50  0000 L CNN
+F 1 "TP4056" H 8580 5901 50  0000 L CNN
+F 2 "Galia:TP4056-18650" H 8500 6000 50  0001 C CNN
+F 3 "~" H 8500 6000 50  0001 C CNN
+	1    8500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5900 8300 5900
+Wire Wire Line
+	8300 6100 8000 6100
+Wire Wire Line
+	8000 6100 8000 5900
+Text GLabel 8300 6000 0    50   Input ~ 0
+RAW_R
+NoConn ~ 8300 5800
+Wire Wire Line
+	8000 5900 7800 5900
+Connection ~ 8000 5900
+$Comp
+L power:GND3 #PWR0106
+U 1 1 5F926D5F
+P 7800 5900
+F 0 "#PWR0106" H 7800 5650 50  0001 C CNN
+F 1 "GND3" H 7805 5727 50  0000 C CNN
+F 2 "" H 7800 5900 50  0001 C CNN
+F 3 "" H 7800 5900 50  0001 C CNN
+	1    7800 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 4700
+Text GLabel 5900 4500 1    50   Input ~ 0
+RAW_R
+Wire Wire Line
+	5900 4500 5900 4600
+Wire Wire Line
+	5800 4600 5900 4600
+Connection ~ 5900 4600
+Wire Wire Line
+	5900 4600 6300 4600
+Connection ~ 6950 1150
+Wire Wire Line
+	6550 950  6550 1050
+Wire Wire Line
+	6450 1050 6550 1050
+Connection ~ 6550 1050
+Wire Wire Line
+	6550 1050 6950 1050
+NoConn ~ 8150 2250
+NoConn ~ 8150 2350
+NoConn ~ 8300 6200
+NoConn ~ 8300 6300
 $EndSCHEMATC
