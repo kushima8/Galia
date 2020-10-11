@@ -13,8 +13,7 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * Useable in both wired and wireless modes.
 * Supports either charger on the microcontroller board or an external TP4056-based charger for faster charging. the TP4056 charger is also flush-mounted sitting up and supports the use of 0305 or 7305 mill-max hotswap sockets if desired.
 * Case design with plate included with in-built 10° tent. Plate assumes use of the Crenshaw.
-* Supports up to a 6000mAH battery (two 804070 cells in parallel). Go a year without charging!
+* Supports a massive battery due to the large space in the case. I'm personally using 18650 batteries. Go a year without charging!
 
 ![Galia Front Render](Hardware/Images/Render_Front.png)
 ![Galia Back Render](Hardware/Images/Render_Back.png)
-![Galia Keyboard Realistic Render](Hardware/Images/Render_Keyboard_Realistic.png)
