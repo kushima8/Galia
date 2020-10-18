@@ -1,5 +1,5 @@
 # Galia
-Split 63-key ergo keyboard with trackball on right-hand side.
+Split 61-key ergo keyboard with trackball on right-hand side.
 
 ## Disclaimer
 The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout with the inner-most keys removed and a modified thumb cluster on the left hand side, and integrated 34mm trackball on the right. The Pro Micro position was also moved inwards to allow for a thinner board. The Ergodash layout was only used as a reference, nothing was copied and the board is a completely new design. Finally, the mechanical design of the [aball](https://github.com/brickbots/aball) was referenced for the design of the trackball mount, but an entirely new design was created.
