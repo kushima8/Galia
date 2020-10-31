@@ -15,5 +15,11 @@ The layout is based on the [Ergodash](https://github.com/omkbd/ErgoDash) layout 
 * Case design with plate included with in-built 10° tent. Plate assumes use of the Crenshaw.
 * Supports a massive battery due to the large space in the case. I'm personally using 18650 batteries. Go a year without charging!
 
-![Galia Front Render](Hardware/Images/Render_Front.png)
-![Galia Back Render](Hardware/Images/Render_Back.png)
+![Galia Front Render](Images/Render_Front.png)
+![Galia Back Render](Images/Render_Back.png)
+
+## Changelog
+* 02/10/2020: Initial commit with case.
+* 06/10/2020: Added spot for external TP4056 charger board.
+* 10/10/2020: Changed reset switch footprint and position, removed useless pull-up resistor.
+* 11/10/2020: Now uses much less plastic and the position of the trackball was moved inwards and downwards.
